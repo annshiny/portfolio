@@ -1,0 +1,204 @@
+html{
+ scroll-behavior: smooth;
+}
+
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.section {
+    background-color: burlywood;
+    padding: 55px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+#header{
+    background-size: cover;
+    overflow: hidden;
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    padding: 0px 0px;
+    margin-left: -2% ;
+    transition: 0.4s;
+    position: fixed;
+    width:100%;
+}
+#navbar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px; 
+    border-radius: 7px;
+    margin-top: -20px;
+}
+#navbar-right a:hover{
+    color: rgb(204, 82, 82);
+} 
+
+
+#navbar{
+    overflow: hidden;
+    padding:5px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    border-radius: 10px;
+    margin-top: -10px;
+    background: -webkit-linear-gradient(to left, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f8b500, #fceabb); 
+
+}
+
+  #navbar-right {
+    float: right;
+    font-size:25px;
+    margin-top:-10px;
+    margin-right: 95px;
+  } 
+  h2{
+      text-align: center;
+  }
+  #name{
+    margin-left: 5%;
+    font-size: 34px;
+    margin-top: 15px;
+  }
+  
+#header p{
+    font-size: 10px;
+    color: skyblue;
+    text-shadow: 2px 2px dodgerblue;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+img{
+    margin-left: 39%;
+    margin-top: 3%;
+  
+}
+
+body{
+    font-style: normal;
+    font-family:Trebuchet MS, sans-serif;
+    font-size: 13pt;
+    background: #bdcc95;  /* fallback for old browsers */
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(254,242,216,1) 0%, rgba(0,212,0,0) 100%);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px ;
+    margin-left: -1%;
+    color: rgb(24, 22, 22);
+}
+progress {
+    width: 20%;
+    height: 10px;
+    padding:0px;
+    border-radius: 10px;
+    color:rgb(37, 33, 33);
+    background: #ece8e8;
+    text-align: center;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+#contact{
+    text-align: center;
+}
+.submit {
+    background-color: tomato;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-right: 1%;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #eb451296;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+#follow{
+    text-align: center;
+}
+#follow:hover {
+    opacity: 0.8;
+}
+#follow a {
+    text-decoration: none;
+    text-align: center;
+}
+#follow h2{
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-github {
+    background: #211F1F;
+    color: white;
+}
+form{
+    text-align: right;
+}
+h2{
+    text-align: left;
+}  
